@@ -3,10 +3,10 @@ custom oh-my-zsh plugin
 This plugin updates custom plugins via git
 # installation
 1. Clone repo:
-   `rm -f ~/.oh-my-zsh/custom/plugins/zsh-update-plugin && git clone https://github.com/AndrewHaluza/zsh-update-plugin.git ~/.oh-my-zsh/custom/plugins/zsh-update-plugin/`
-2. Open your `~/.zshrc` file and enable the `zupdate-plugin` plugin:
+   `rm -f ~/.oh-my-zsh/custom/plugins/zsh-update-plugin && git clone https://github.com/AndrewHaluza/zsh-update-plugin.git ~/.oh-my-zsh/custom/plugins/update-plugin/`
+2. Open your `~/.zshrc` file and enable the `update-plugin` plugin:
 ```zsh
-plugins=( ... zupdate-plugin)
+plugins=( ... update-plugin)
 ```
 ## Usage
 - `zupdate ls`
